@@ -3,3 +3,12 @@ body{
 	font-family: 'Montserrat', "sans-serif";
 	color: white
 }
+
+img{
+	width: 25px;
+	height: 25px;
+	display: inline;
+	float:right;
+	vertical-align: top;
+	margin: 5px 2px 0 0;
+}
