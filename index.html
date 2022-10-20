@@ -7,10 +7,21 @@
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-	<body>
+	<script type="text/javascript"> 
+function startTimer(){ 
+ window.setTimeout('ausblenden()', 5000); 
+} 
+ 
+function ausblenden(){ 
+ var obj = document.getElementById('deinObjekt'); 
+ obj.style.display = "none"; 
+} 
+</script> 
+	<body onload="startTimer()"> 
 		<h1> Hallo</h1>
+		
+<img id="deinObjekt" src="https://64.media.tumblr.com/dcc8afe883006d7762fb452c325070d5/tumblr_p8j823cjNg1t9tiq3o1_1280.gif">
 
-		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScU2dsfbt_SezgSCHUiDeXFakNYBnS6r7SGhHPaqyY0AmW9_4QioMUv0O5eOWFiaf50xM&usqp=CAU">
 	</body>
 </html>
 			
