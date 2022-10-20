@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body{
-  background-color:rgb(109, 22, 39);
+  background-color:rgb(140, 192, 198);
 	font-family: 'Montserrat', "sans-serif";
-	color: white
+	color:white;
+
 }
 
 img{
@@ -9,4 +12,15 @@ img{
 	float: middle;
 	vertical-align: top;
 	margin: 5px 2px 0 0;
+}
+
+
+button{
+height: 50px;
+width: 100px;
+font-size:15px;
+background-color: white;
+color: rgb(140, 192, 198);
+border-width: 4px;
+border-style: solid;
 }
